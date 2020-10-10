@@ -5,7 +5,9 @@
 .react-timer_digit-container {
     transition: all .5s ease-in;
 }
-
+.remove-animation{
+    transition: none;
+}
 .react-timer_digit-container > div {
     margin: 5px 0;
 }
