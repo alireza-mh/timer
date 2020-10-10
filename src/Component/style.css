@@ -1,0 +1,17 @@
+.react-timer {
+
+}
+
+.react-timer_digit-container {
+    transition: all .5s ease-in;
+}
+
+.react-timer_digit-container > div {
+    margin: 5px 0;
+}
+
+.react-timer-decimal {
+    height: 20px;
+    overflow: hidden;
+    transition: all .5s ease-in;
+}

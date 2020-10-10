@@ -1,0 +1,9 @@
+// .babelrc
+{
+  "presets": ["@babel/react", ["@babel/env", { "useBuiltIns": "usage", "corejs": 3 }], "@babel/typescript"],
+  "plugins": [
+    ["@babel/proposal-decorators", { "legacy": true }],
+    "@babel/proposal-object-rest-spread",
+    "@babel/proposal-class-properties"
+  ]
+}

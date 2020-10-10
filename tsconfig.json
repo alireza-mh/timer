@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declarationMap": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "declaration": true,
+    "pretty": true,
+    "rootDir": "src",
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "outDir": "lib",
+    "skipLibCheck": true,
+    // we can import module that doesn't have default import - no need for import * as React from 'react
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2018", "dom"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
